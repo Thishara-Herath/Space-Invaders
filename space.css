@@ -1,0 +1,21 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-image: url('images/k1.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#board {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+h1 {
+    color: white;
+    display: inline-block;
+    /* Ensures border wraps around content */
+    border: 5px solid white;
+    padding: 2px;
+    border-radius: 5px;
+    background-image: linear-gradient( rgba(255, 0, 0, 0), rgb(0, 247, 255));
+}
